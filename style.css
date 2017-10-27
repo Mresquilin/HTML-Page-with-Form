@@ -1,0 +1,86 @@
+body {
+	background-color: lightblue;
+background: url(ssbm.jpg) repeat;
+}
+
+h1{
+	text-align: center;
+	text-shadow: 3px 2px lightblue;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 70px;
+	width: 400px;
+	outline-style: Solid;
+	margin: auto;
+	
+	
+}
+
+div.title {
+	text-align: center;
+	text-shadow: 3px 2px red;
+	color: lightblue;
+	font-family: "Times New Roman", Times, serif;
+	font-style: bold;
+	font-size: 58px;
+	
+	width: 400px;
+	margin: auto;
+
+
+}
+
+div.message {
+	text-align: center;
+	text-shadow: 3px 2px blue;
+	color: forestgreen;
+ 	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-style: bold;
+	font-size: 32px;
+	//outline-style: dotted;
+	width: 400px;
+	margin: auto;
+
+
+}
+
+title{
+	text-transform: uppercase;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: blue;
+    background: red;
+}
+
+::selection {
+    color: blue;
+    background: red;
+}
+div.background {
+opacity: .7;
+  background-color: lightblue;
+  border: 2px solid black;
+
+//width: 300px;
+
+padding: 10%;
+}
+
+div.transbox {
+	width: 90%;
+	
+  	background-color: #ffffff;
+  	border: 1px solid black;
+  	//opacity: 0.6;
+  	filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox2 {
+	width: 90%;
+	
+  	background-color: #ffffff;
+  	border: 1px solid black;
+  	//opacity: 0.6;
+  	filter: alpha(opacity=60); /* For IE8 and earlier */
+}
